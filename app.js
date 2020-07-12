@@ -16,4 +16,4 @@ const bars = container
     .append('div')
     .classed('bar',true)
     .style('width','50px')
-    .style('height','150px')
+    .style('height',data => data.value * 15+'px')
