@@ -6,8 +6,5 @@ const DUMMY_DATA = [
 ]
 
 d3.select('div')
-.selectAll('p')
-.data(DUMMY_DATA)
-.enter()
-.append('p')
-.text(dta => dta.region);
+.classed('container',true)
+.style('border','1px solid red')
